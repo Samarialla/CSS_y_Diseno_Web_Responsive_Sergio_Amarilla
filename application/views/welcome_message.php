@@ -27,15 +27,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="#" title="Enlace genérico">Retratos</a></li>
 
             </ul>
-              <div id="image1">
-                  <img src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
-              </div>
-              <div>
+            <figure>
+                <center>
+                <figcaption>Imagen central</figcaption>
+                  <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
+                  </center>
+            </figure>
+<!--              <div>
                   <img src="assets/images/responsive.jpg" alt="triangle with all three sides equal" width="40px" height="30px" >
               </div>
               <div>
                   <img src="assets/images/web.jpg" alt="triangle with all three sides equal" width="40px" height="30px" >
-              </div>
+              </div>-->
         </div>
 
 
