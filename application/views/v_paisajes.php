@@ -29,16 +29,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </header>
 <div class="container">
 
-            <figure id="container">
+            <figure id="paisaje">
 
                   <img id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal"  >
-
-              <div class="container" id="secundario">
-
                   <img id="images2" src="assets/images/web.jpg" alt="triangle with all three sides equal" >
                   <img id="images3"src="assets/images/estadistica.png" alt="triangle with all three sides equal" >
 
-              </div>
             </figure>
 
   </div>
