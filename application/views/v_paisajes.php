@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <nav>
             <ul>
 
-                <a href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
+                <a href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Inicio</a>
                 <a href="<?php echo base_url() ?>Inicio" title="Enlace genérico">Experiencia</a>
                 <a href="#" title="Enlace genérico">Retratos</a></li>
             </ul>
@@ -31,12 +31,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <figure id="container">
 
-                  <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
+                  <img id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal"  >
 
               <div class="container" id="secundario">
 
-                  <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
-                  <img id="image3"src="assets/images/web.jpg" alt="triangle with all three sides equal" >
+                  <img id="images2" src="assets/images/web.jpg" alt="triangle with all three sides equal" >
+                  <img id="images3"src="assets/images/estadistica.png" alt="triangle with all three sides equal" >
 
               </div>
             </figure>
