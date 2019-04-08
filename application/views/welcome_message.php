@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width:device-width,user-scalable=no">
+        <meta name="viewport" content="width:device-width,user-scalable=no,initial-scale=1.0">
         <title>Css y Diseño Web</title>
 
         <link  rel="stylesheet" type="text/css" href="<?php base_url(); ?>assets/css/estilos.css">
@@ -15,34 +15,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
     </head>
     <body>
+<header>
 
-        <div id="container">
             <h1>Css y Diseño Web!</h1>
-
-
+            <nav>
             <ul>
 
                 <a href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Inicio</a>
                 <a href="<?php echo base_url() ?>Inicio" title="Enlace genérico">Experiencia</a>
                 <a href="#" title="Enlace genérico">Retratos</a></li>
-
             </ul>
-            <figure>
-                <center>
-                <figcaption>Imagen central</figcaption>
+            <nav>
+</header>
+<div class="container">
+
+            <figure id="container">
+
                   <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
-                  </center>
-            </figure>
-<!--              <div>
-                  <img src="assets/images/responsive.jpg" alt="triangle with all three sides equal" width="40px" height="30px" >
+              <div class="container" id="secundario">
+                  <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+                  <img id="image3"src="assets/images/web.jpg" alt="triangle with all three sides equal" >
+
               </div>
-              <div>
-                  <img src="assets/images/web.jpg" alt="triangle with all three sides equal" width="40px" height="30px" >
-              </div>-->
-        </div>
+            </figure>
+
+  </div>
 
 
+<footer>
 
+<h4>Sergio Javier Amarilla Ayala & <b>Direccion</b> Dr Justo Prieto 1800 c/s Asuncion Paraguay</h4>
+
+</footer>
 
     </body>
 </html>
