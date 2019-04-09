@@ -11,25 +11,46 @@ body {
 }
 
 a {
-    color: #003399;
+    color: white;
     background-color: transparent;
     font-weight: normal;
+
 }
-nav{
-  height: 100%
+#cabecera{
+display: flex;
+justify-content: flex-end;
+align-items: right;
+height: 100%;
+color: #5b7989;
+background-color: transparent;
+border-bottom: 1px solid #D0D0D0;
+font-size: 80%;
+font-weight: normal;
+margin: 0 0 14px 0;
+padding: 14px 15px 10px 15px;
+box-shadow: 2px 2px 2px  #02010a;
+border-radius: 19px;
 }
+
+}
+/*nav{
+  height: 100%;
+  color: #5b7989;
+  background-color: transparent;
+  border-bottom: 1px solid #D0D0D0;
+  font-size: 80%;
+  font-weight: normal;
+  margin: 0 0 14px 0;
+  padding: 14px 15px 10px 15px;
+  box-shadow: 2px 2px 2px  #02010a;
+  border-radius: 19px;
+
+
+}*/
+
 
 h1 {
-    color: #5b7989;
-    background-color: transparent;
-    border-bottom: 1px solid #D0D0D0;
-    font-size: 19px;
-    font-weight: normal;
-    margin: 0 0 14px 0;
-    padding: 14px 15px 10px 15px;
-    box-shadow: 2px 2px 2px  #02010a;
-    border-radius: 19px;
-
+  text-align: left !important;
 }
 
 code {
@@ -52,9 +73,9 @@ p.footer {
     text-align: right;
     font-size: 11px;
     border-top: 1px solid #D0D0D0;
-    line-height: 32px;
+    line-height: 32%;
     padding: 0 10px 0 10px;
-    margin: 20px 0 0 0;
+    margin: 20% 0 0 0;
 }
 
 container {
@@ -69,9 +90,11 @@ ul{
     overflow: hidden;
     font-size: 200%;
     box-shadow: 10px ;
-    list-style-type: none;
-    float: right;
+    list-style: none;
+    float: right !important;
+    color: black;
 }
+
 
 #image1 {
     display : block;
@@ -122,6 +145,10 @@ footer h4{
   padding: 14px 15px 10px 15px;
   box-shadow: 2px 2px 2px  #02010a;
   border-radius: 19px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
 }
 
 #image2:hover {
@@ -130,7 +157,8 @@ footer h4{
   box-shadow: 0px 0px 15px 15px #ec731e;
   -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
   transform: rotate(1deg);
-  -webkit-transform: rotate(1deg);}
+  -webkit-transform: rotate(1deg);
+}
 /*@-webkit-keyframes animeimage2{
   from{
     transform: rotate(45deg);
@@ -140,6 +168,7 @@ footer h4{
   }
 }*/
 
+
 #image3:hover {
   border-radius:50%;
   -webkit-border-radius:50%;
@@ -147,15 +176,129 @@ footer h4{
   -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
   transform: rotate(10deg);
   -webkit-transform: rotate(1deg);
-  filter: saturate(180%);}
+  filter: saturate(180%);
+}
 
-  #image1:hover {
+#image1:hover {
     filter: opacity(.5);
     box-shadow: #82c3a6;
   }
-  #paisaje #images1 #images2 #images3 #images4 #images5 #imagen6{
-    width: 30px;
-    height: 30px;
+  #images1 {
+      width: 25%;
+      height: 25%;
+      border-radius: 19px;
+      border : 4px solid #D0D0D0;
 
+    }
+#images2 {
+    width: 25%;
+    height: 30%;
+    border-radius: 19px;
+    border : 4px solid #D0D0D0;
 
   }
+  #images3 {
+     width: 25%;
+     height: 25%;
+     border-radius: 19px;
+     border : 4px solid #D0D0D0;
+
+   }
+   #images4 {
+      width: 25%;
+      height: 25%;
+      border-radius: 19px;
+      border : 4px solid #D0D0D0;
+
+    }
+    #images5 {
+       width: 25%;
+       height: 25%;
+       border-radius: 19px;
+       border : 4px solid #D0D0D0;
+
+     }
+     #images6 {
+        width: 25%;
+        height: 25%;
+        border-radius: 19px;
+        border : 4px solid #D0D0D0;
+
+
+      }
+      #paisaje{
+        display:block;
+        margin:auto;
+
+      }
+
+      html {
+        min-height: 100%;
+        position: relative;
+      }
+      @media all and (max-width: 500px){
+      #images1{
+        width: 100%;
+        order: 1;
+      }
+      #images2{
+        width: 100%;
+        order: 2;
+      }
+      #images3{
+        width: 100%;
+        order: 3;
+      }
+        #images4{
+          width: 100%;
+        order: 4;
+      }
+          #images5{
+         width: 100%;
+          order: 5;
+      }
+
+        #images6{
+       width: 100%;
+        order: 5;
+
+      }
+}
+@media all and (max-width:800px) and (min-width:500px){
+  #images1{
+    width: 80%;
+
+  }
+  #images2{
+    width: 80%;
+
+  }
+  #images3{
+    width: 80%;
+
+  }
+    #images4{
+      width: 80%;
+
+  }
+      #images5{
+     width: 80%;
+
+    }
+    #images6{
+   width: 80%;
+
+  }
+}
+#images2:hover{
+  /*border-radius:50%;
+  -webkit-border-radius:50%;
+
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);*/
+  filter:blur(10px);
+  border-radius: 19px;
+  box-shadow: 0px 0px 15px 15px blue;
+
+}

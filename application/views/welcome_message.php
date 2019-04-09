@@ -15,17 +15,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
     </head>
     <body>
-<header>
+<header id="cabecera">
 
-            <h1>Css y Diseño Web!</h1>
+    <div>
             <nav>
+              <!--<h2>Css y Diseño Web!</h2>-->
             <ul>
 
                 <a href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
                 <a href="<?php echo base_url() ?>Inicio" title="Enlace genérico">Experiencia</a>
                 <a href="#" title="Enlace genérico">Retratos</a></li>
             </ul>
-            <nav>
+          </nav>
+    </div>
 </header>
 <div class="container">
 
