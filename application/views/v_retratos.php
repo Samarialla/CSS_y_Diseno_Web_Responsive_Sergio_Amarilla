@@ -24,9 +24,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
       <ul class="nav navbar-nav navbar-right">
-        <li>  <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a></li>
-        <li> <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a></li>
-        <li> <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a></li>
+          <li>  <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a></li>
+        <li>  <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Retratos</a></li>
+        <li> <a id="color" href="<?php echo base_url() ?>Inicio" title="Enlace genérico">Experiencia</a></li>
+
       </ul>
     </div>
   </nav>
@@ -36,11 +37,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <figure class="" id="">
                                       <center>
                                       <img id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal"  >
-                                      <img id="images2" src="assets/images/web.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images3"src="assets/images/estadistica.png" alt="triangle with all three sides equal" >
-                                      <img id="images4"src="assets/images/mar.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images5"src="assets/images/paisaje.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images6"src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+                                      <img id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
                                     </center>
                                 </figure>
 
@@ -48,33 +49,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
   <footer class="container-fluid">
-
-      <!-- Footer Links -->
       <div class="container-fluid text-center text-md-left">
-
-        <!-- Grid row -->
         <div class="row">
-
-          <!-- Grid column -->
           <div class="col-md-6 mt-md-0 mt-3">
-
-            <!-- Content -->
             <h4 class="text-uppercase "><b>Contactos</b></h4>
             <p>Correo Electronico</p>
             <p>Direccion</p>
             <p>Telefono</p>
-
           </div>
-          <!-- Grid column -->
-
-          <hr class="clearfix w-100 d-md-none pb-3">
-
-          <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
           <div class="col-md-3 mb-md-0 mb-3">
 
-              <!-- Links -->
               <h5 class="text-uppercase">Terminos</h5>
-
               <ul class="list-unstyled">
                 <li>
                   <a href="#!"></a>
@@ -82,19 +68,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li>
                   <a href="#!"></a>
                 </li>
-
-
               </ul>
-
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
             <div class="col-md-3 mb-md-0 mb-3">
-
-              <!-- Links -->
               <h5 class="text-uppercase">Redes Sociales</h5>
-
               <ul class="list-unstyled">
                 <li>
                   <p>
@@ -104,25 +81,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <p>
                   <a href="#!">Instagram</a></p>
                   </li>
-
               </ul>
-
             </div>
-            <!-- Grid column -->
-
         </div>
-        <!-- Grid row -->
+        </div>
 
-      </div>
-      <!-- Footer Links -->
-
-      <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href=""> Derechos resercados</a>
       </div>
-      <!-- Copyright -->
+<!--
+      <article id="contacto" style="">
+        <h1>Contactos</h1>
+        <ins>sergojavuer23@gmail.com</ins><br>
+        Dr justo prieto<br>
+        13245456465
+      </article>
+      <article id="Derechos" style="">
+        <h1>Derechos</h1>
+        Copyright -2019
 
-    </footer>
+      </article>
+      <article id="Redes" style="">
+        <h1>Redes Sociales</h1>
+        Comparte en nuestra redes sociales<br>
+        Facebook<br>
+        Instagram
+      </article>
+      <article id="Terminos">
+        <h1>Redes Sociales</h1>
+        Comparte en nuestra redes sociales<br>
+
+      </article>-->
+
+  </footer>
 
     </body>
 </html>
