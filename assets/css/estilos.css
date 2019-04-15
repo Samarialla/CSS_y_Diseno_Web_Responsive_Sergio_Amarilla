@@ -1,9 +1,9 @@
 #body {
 	font-family: 'Dancing Script';
-	background-color: #02010a;
+ 	background-color: #B7DFE1  ;
 	margin: 0;
 	padding: 0;
-	height: 100%;
+	width: : 50%;
 	animation-duration: 3s;
 	animation-name: slidein;
 	animation-iteration-count: infinite;
@@ -12,6 +12,26 @@
 
 html {
 	position: absolute;
+}
+
+#pie{
+	font-size: 20px;
+	text-align: center;
+
+}
+#principal{
+	background-color: #9DBFCF;
+	width: 100%;
+	height: 100%;
+
+}
+#secundario{
+
+
+	background: center no-repeat contain center !important;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
 }
 
 #cabecera {
@@ -24,7 +44,20 @@ html {
 	border-radius: 10px;
 	text-decoration-color: white;
 }
+#izquierda{
+	display:flex;
+	flex-direction: column;
+	width: 50%;
+	height: 50%;
+}
+#derecha{
+	display:flex;
+	flex-direction: column;
+	text-align: left;
+	width: 50%;
+	height: 50%;
 
+}
 code {
 	font-family: Consolas, Monaco, Courier New, Courier, monospace;
 	font-size: 12px;
@@ -46,18 +79,20 @@ code {
 
 #image1 {
 	display: block;
-	margin: 0.5% auto;
-	width: 60%;
+	margin: 0.9% auto;
+	width: 50%;
 	height: 250px;
 	border: 4px solid #D0D0D0;
 	background-color: #82c3a6;
 	border-radius: 20px;
 	filter: blur(2px);
+
 }
 
 #image2 {
-	width: 50%;
-	height: 250px;
+	width: 30%;
+	height: 20%;
+ 	text-align: center;
 	border: 4px solid #D0D0D0;
 	background-color: #82c3a6;
 	float: left;
@@ -67,17 +102,19 @@ code {
 }
 
 #image3 {
-	width: 50%;
-	height: 250px;
+	width: 30% !important;
+	height: 20% !important;
 	border: 4px solid #D0D0D0;
 	background-color: #82c3a6;
 	float: right;
 	border-radius: 20px
 }
 
-#secundario {
-	background-color: #d5c75f;
-}
+/*#secundario {
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+}*/
 
 footer {
 	background-color: #C6d5c5;
@@ -116,6 +153,13 @@ footer {
   align-items: left;
 
 }
+#image3:hover {
+	transition: :rotate(10deg);
+	border-radius: 19px;
+	box-shadow: 0px 0px 15px 15px blue;
+	-webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
 
 #image2:hover {
 	border-radius: 50%;
@@ -123,7 +167,8 @@ footer {
 	box-shadow: 0px 0px 15px 15px #ec731e;
 	-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
 	transform: rotate(1deg);
-	-webkit-transform: rotate(1deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 #image1:hover {
@@ -132,47 +177,53 @@ footer {
 }
 
 #images1 {
-	width: 25%;
-	height: 25%;
+	width: 27%;
+	height: 250px;
 	border-radius: 19px;
+	margin: 1%;
 	border: 4px solid #D0D0D0;
 	background-color: #82c3a6;
 	filter: sepia(100%);
 }
 
 #images2 {
-	width: 25%;
-	height: 30%;
+	width: 27%;
+	height: 250px;
+	margin: 1%;
 	border-radius: 19px;
 	border: 4px solid #D0D0D0;
 	background-color: #d5c75f;
 }
 
 #images3 {
-	width: 25%;
-	height: 50%;
+	width: 27%;
+	height: 250px;
+	margin: 1%;
 	border-radius: 19px;
 	border: 4px solid #D0D0D0;
 }
 
 #images4 {
-	width: 25%;
-	height: 50%;
+	width: 27%;
+	height: 250px;
+	margin: 1%;
 	border-radius: 19px;
 	border: 4px solid #D0D0D0;
 }
 
 #images5 {
-	width: 25%;
-	height: 25%;
+	width: 27%;
+	height: 250px;
+	margin: 1%;
 	border-radius: 19px;
 	border: 4px solid #D0D0D0;
 	filter: sepia(10deg);
 }
 
 #images6 {
-	width: 25%;
-	height: 24%;
+	width: 27%;
+	height: 250px;
+	margin: 1%;
 	border-radius: 19px;
 	border: 4px solid #D0D0D0;
 }
@@ -202,29 +253,36 @@ html {
 	}
 
 	#image1 {
-		width: 100%;
+		width: 80%;
 		height: 20%;
+		margin: 1%;
 		order: 1;
 	}
 
 	#image2 {
 		width: 100%;
 		height: 20%;
+		margin: 1%;
 		order: 2;
 	}
-  #image2:hover {
 
-  	box-shadow: 0px 0px 15px 15px #ec731e;
-  	-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-  	transform: rotate(1deg);
-  	-webkit-transform: rotate(1deg);
 }
 	#image3 {
 		width: 100%;
 		height: 20%;
+		margin: 1%;
 		order: 3;
 	}
 }
+
+#image3:hover {
+	transition: :rotate(10deg);
+	border-radius: 19px;
+	box-shadow: 0px 0px 15px 15px blue;
+	-webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
 
 @media all and (max-width: 900px) {
 	header {
@@ -295,7 +353,7 @@ html {
 
 @media all and (max-width:900px) and (min-width:900px) {
 	header {
-		width: 100%;
+		width: 80%;
 		height: 7%;
 	}
 
@@ -361,6 +419,10 @@ html {
 
 #images4:hover {
 	-webkit-filter: grayscale(100%);
+	box-shadow: 0px 0px 15px 15px blue;
+}
+#images5:hover {
+	-webkit-filter: sepia(100%);
 	box-shadow: 0px 0px 15px 15px blue;
 }
 

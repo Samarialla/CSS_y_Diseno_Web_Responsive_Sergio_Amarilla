@@ -40,30 +40,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
     <ul class="nav navbar-nav navbar-right">
+      <li>  <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a></li>
       <li>  <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a></li>
       <li> <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a></li>
     </ul>
   </div>
 </nav>
-
-
 </header>
-<div class="container">
 
-            <figure id="container">
 
-                  <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
+  <div id="principal">
+    <figure id="">
+      <p id="pie">
+        <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
+        Paisajes
+      </p>
+    </figure>
+ </div>
 
-              <div id="secundario">
+  <div id="secundario" class="container">
 
-                  <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
-                  <img id="image3"src="assets/images/web.jpg" alt="triangle with all three sides equal" >
+        <figure>
+          <a href="<?php echo base_url() ?>Paisajes" title="Paisajes">
+            <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+          </a>
+        </figure>
 
-              </div>
-            </figure>
+      <figure>
+        <a href="<?php echo base_url() ?>Retratos" title="Retratos">
+        <img id="image3"src="assets/images/web.jpg" alt="triangle with all three sides equal" >
 
+      </figure>
   </div>
 
+<!--<div class="container" id="secundario">
+<article id="izquierda">
+  <a class="" href="">
+    <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+  </a>
+  <h2>Retratos</h2>
+</article>
+
+<article id="derecha">
+  <a class="" href="">
+    <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+  </a>
+  <h2>Retratos</h2>
+</article>
+</div>-->
 
 <!--<footer>
   <nav class="navbar navbar-inverse">
@@ -92,21 +116,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
+        <div class="col-md-4 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h4 class="text-uppercase "><b>Contactos</b></h4>
+          <h4 class="text-uppercase "><b>Contactos</b></h4><br>
           <p>Correo Electronico</p>
           <p>Direccion</p>
           <p>Telefono</p>
 
         </div>
-        <!-- Grid column -->
 
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
+        <div class="col-md-4 mb-md-0 mb-3">
 
             <!-- Links -->
             <h5 class="text-uppercase">Terminos</h5>
@@ -122,13 +142,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             </ul>
 
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
+        </div>
           <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
             <h5 class="text-uppercase">Redes Sociales</h5>
 
             <ul class="list-unstyled">
@@ -140,26 +155,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p>
                 <a href="#!">Instagram</a></p>
                 </li>
-
             </ul>
 
+            </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Derechos</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                <a href="#!">Autor</a></p>
+              </li>
+              <li>
+                <p>
+                <a href="#!">Page</a></p>
+                </li>
+            </ul>
           </div>
-          <!-- Grid column -->
 
       </div>
-      <!-- Grid row -->
 
     </div>
-    <!-- Footer Links -->
 
-    <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
       <a href=""> Derechos resercados</a>
     </div>
-    <!-- Copyright -->
-
   </footer>
-  <!-- Footer -->
-
-    </body>
+</body>
 </html>

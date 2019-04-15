@@ -47,82 +47,85 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-  <footer class="container-fluid">
+                                <footer class="">
 
-      <!-- Footer Links -->
-      <div class="container-fluid text-center text-md-left">
+                                    <!-- Footer Links -->
+                                    <div class="container-fluid text-center text-md-left">
 
-        <!-- Grid row -->
-        <div class="row">
+                                      <!-- Grid row -->
+                                      <div class="row">
 
-          <!-- Grid column -->
-          <div class="col-md-6 mt-md-0 mt-3">
+                                        <!-- Grid column -->
+                                        <div class="col-md-3 mt-md-0 mt-">
 
-            <!-- Content -->
-            <h4 class="text-uppercase "><b>Contactos</b></h4>
-            <p>Correo Electronico</p>
-            <p>Direccion</p>
-            <p>Telefono</p>
+                                          <!-- Content -->
+                                          <h4 class="text-uppercase "><b>Contactos</b></h4>
+                                          <p>Correo Electronico</p>
+                                          <p>Direccion</p>
+                                          <p>Telefono</p>
 
-          </div>
-          <!-- Grid column -->
-
-          <hr class="clearfix w-100 d-md-none pb-3">
-
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-
-              <!-- Links -->
-              <h5 class="text-uppercase">Terminos</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!"></a>
-                </li>
-                <li>
-                  <a href="#!"></a>
-                </li>
+                                        </div>
+                                        <!-- Grid column -->
 
 
-              </ul>
 
-            </div>
-            <!-- Grid column -->
+                                        <!-- Grid column -->
+                                        <div class="col-md-3 mb-md-0 mb-3">
 
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
+                                            <!-- Links -->
+                                            <h5 class="text-uppercase">Terminos</h5>
 
-              <!-- Links -->
-              <h5 class="text-uppercase">Redes Sociales</h5>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#!"></a>
+                                              </li>
+                                              <li>
+                                                <a href="#!"></a>
+                                              </li>
 
-              <ul class="list-unstyled">
-                <li>
-                  <p>
-                  <a href="#!">Facebook</a></p>
-                </li>
-                <li>
-                  <p>
-                  <a href="#!">Instagram</a></p>
-                  </li>
 
-              </ul>
+                                            </ul>
 
-            </div>
-            <!-- Grid column -->
+                                        </div>
+                                          <div class="col-md-3 mb-md-0 mb-3">
+                                            <h5 class="text-uppercase">Redes Sociales</h5>
 
-        </div>
-        <!-- Grid row -->
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <p>
+                                                <a href="#!">Facebook</a></p>
+                                              </li>
+                                              <li>
+                                                <p>
+                                                <a href="#!">Instagram</a></p>
+                                                </li>
+                                            </ul>
 
-      </div>
-      <!-- Footer Links -->
+                                            </div>
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href=""> Derechos resercados</a>
-      </div>
-      <!-- Copyright -->
+                                          <div class="col-md-3 mb-md-0 mb-3">
+                                            <h5 class="text-uppercase">Derechos</h5>
 
-    </footer>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <p>
+                                                <a href="#!">Autor</a></p>
+                                              </li>
+                                              <li>
+                                                <p>
+                                                <a href="#!">Page</a></p>
+                                                </li>
+                                            </ul>
+                                          </div>
+
+                                      </div>
+
+                                    </div>
+
+                                    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                                      <a href=""> Derechos resercados</a>
+                                    </div>
+                                  </footer>
 
     </body>
 </html>
