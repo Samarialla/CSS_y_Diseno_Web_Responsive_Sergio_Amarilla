@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h4 class="text-uppercase "><b>Contactos</b></h4><br>
+          <h5 class="text-uppercase "><b>Contactos</b></h5><br>
           <p>Correo Electronico</p>
           <p>Direccion</p>
           <p>Telefono</p>

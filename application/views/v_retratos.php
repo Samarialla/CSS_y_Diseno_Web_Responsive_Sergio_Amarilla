@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <ul class="nav navbar-nav navbar-right">
         <li>  <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a></li>
         <li>  <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Retratos</a></li>
-        <li> <a id="color" href="<?php echo base_url() ?>Inicio" title="Enlace genérico">Experiencia</a></li>
+        <li> <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a></li>
 
       </ul>
     </div>

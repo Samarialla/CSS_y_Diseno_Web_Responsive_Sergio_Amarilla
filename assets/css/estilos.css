@@ -246,42 +246,44 @@ html {
 @media all and (max-width: 900px) {
 	header {
 		width: 100%;
-		height: 15%;
-		font-size: 10%;
+		height: 100px !important;
+		font-size: 50% !important;
 		order: 1;
-		align-items: center;
+		display: flex;
 	}
 
 	#image1 {
 		width: 80%;
-		height: 20%;
-		margin: 1%;
-		order: 1;
-	}
+		height: 100px;
 
-	#image2 {
-		width: 100%;
-		height: 20%;
-		margin: 1%;
 		order: 2;
 	}
 
-}
-	#image3 {
-		width: 100%;
-		height: 20%;
-		margin: 1%;
+	#image2 {
+		width: 100% !important;
+		height: 150px !important;
+
 		order: 3;
+	}
+
+
+	#image3 {
+		width: 100% !important;
+		height: 150px !important;
+
+		order: 4;
+	}
+	footer div p h5{
+		display: flex !important;
+		font-size: 10% !important;
+
+		position: absolute !important;
+		height: 150px !important;
+
 	}
 }
 
-#image3:hover {
-	transition: :rotate(10deg);
-	border-radius: 19px;
-	box-shadow: 0px 0px 15px 15px blue;
-	-webkit-transform: rotate(10deg);
-  transform: rotate(10deg);
-}
+
 
 
 @media all and (max-width: 900px) {
@@ -293,8 +295,8 @@ html {
 	#images1 {
 		width: 75%;
 		order: 1;
-		-webkit-filter: grayscale(100%);
-		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%) !important;
+		filter: grayscale(100%) !important;
 	}
 
 	#images1:hover {
@@ -303,30 +305,26 @@ html {
     -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
     transform: rotate(1deg);
     -webkit-transform: rotate(1deg);*/
-		filter: blur(10px);
+		filter: blur(10px) !important;
 		border-radius: 19px;
 		box-shadow: 0px 0px 15px 15px blue;
 	}
 
 	#images2 {
 		width: 75%;
+		filter: blur(3px) !important;
 		order: 2;
 	}
-  #image2:hover {
 
-  	box-shadow: 0px 0px 15px 15px #ec731e;
-  	-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-  	transform: rotate(1deg);
-  	-webkit-transform: rotate(1deg);
-}
 
 	#images3 {
 		width: 75%;
 		order: 3;
 	}
 
-	#images4 {
+	#images4{
 		width: 75%;
+
 		order: 4;
 	}
 
@@ -354,11 +352,12 @@ html {
 @media all and (max-width:900px) and (min-width:900px) {
 	header {
 		width: 80%;
-		height: 7%;
+		height: 250px;
 	}
 
 	#images1 {
 		width: 80%;
+		height: 60%;
 		filter: blur(10px);
 	}
 
@@ -373,11 +372,11 @@ html {
 		box-shadow: 0px 0px 15px 15px blue;
 	}
 
-	div {
+/*	div {
 		width: 100%;
 		height: auto;
 		margin-left: 10px;
-	}
+	}*/
 
 	#images2 {
 		width: 80%;
