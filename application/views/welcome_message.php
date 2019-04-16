@@ -63,6 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <figure>
           <a href="<?php echo base_url() ?>Paisajes" title="Paisajes">
             <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+
           </a>
         </figure>
 
@@ -116,17 +117,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-4 mt-md-0 mt-3">
+        <div class="col-md-3 mt-md-0 mt-">
 
           <!-- Content -->
-          <h5 class="text-uppercase "><b>Contactos</b></h5><br>
+          <h5 class="text-uppercase "><b>Contactos</b></h5>
           <p>Correo Electronico</p>
           <p>Direccion</p>
           <p>Telefono</p>
 
         </div>
+        <!-- Grid column -->
 
-        <div class="col-md-4 mb-md-0 mb-3">
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
 
             <!-- Links -->
             <h5 class="text-uppercase">Terminos</h5>

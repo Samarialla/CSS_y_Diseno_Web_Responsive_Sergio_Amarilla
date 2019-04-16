@@ -9,9 +9,15 @@
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 html {
 	position: absolute;
+	
 }
 
 #pie{
