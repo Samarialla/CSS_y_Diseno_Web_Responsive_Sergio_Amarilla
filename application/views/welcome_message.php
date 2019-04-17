@@ -16,6 +16,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
     </head>
 <body id="body">
+
+
+  
+
+
 <header id="cabecera">
 
 <!---
@@ -49,16 +54,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </header>
 
 
-  <div id="principal">
+  <div  class=""id="principal">
     <figure id="">
       <p id="pie">
         <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
-        Paisajes
+
       </p>
     </figure>
  </div>
 
-  <div id="secundario" class="container">
+<!--  <div id="secundario" class="container">
 
         <figure>
           <a href="<?php echo base_url() ?>Paisajes" title="Paisajes">
@@ -72,68 +77,85 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <img id="image3"src="assets/images/web.jpg" alt="triangle with all three sides equal" >
 
       </figure>
-  </div>
+  </div>-->
 
-<!--<div class="container" id="secundario">
+<div class="container" id="secundario">
 <article id="izquierda">
   <a class="" href="">
     <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
   </a>
-  <h2>Retratos</h2>
+  <h3>Retratos</h3>
 </article>
 
 <article id="derecha">
   <a class="" href="">
-    <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+    <img id="image3" src="assets/images/web.jpg" alt="triangle with all three sides equal" >
   </a>
-  <h2>Retratos</h2>
+  <h3>Paisajes</h3>
 </article>
-</div>-->
+</div>
 
-<!--<footer>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a id="color" class="navbar-brand" href="#">Contactos</a>
-        <a id="" class="navbar-brand" href="#">Correo Electronico &Sergojavier23@gamil.com</a>
-        <a id="" class="navbar-brand" href="#">Direccion :Dr justo prieto Paraguay</a>
-        <a id="" class="navbar-brand" href="#">Telefono :87878910</a>
+<footer>
+
+    <div class="container">
+      <div class="" id="contacto">
+        <h3>Contactos</h3>
+        <p>Correo Electronico</p>
+        <p>Direccion</p>
+        <p>Telefono</p>
+
       </div>
 
-      <ul class="">
-        <<li>  <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a></li>
-        <li> <a id="color" href="<?php echo base_url() ?>Inicio" title="Enlace genérico">Experiencia</a></li>
-      </ul>
+      <div id="Terminos">
+        <h3>Terminos</h3>
+        <p>Adsoluta</p>
+        <p>position</p>
+        <p>Granja</p>
+
+      </div>
+
+      <div id="RedesSociales">
+        <h3>Redes Socilaes</h3>
+        <p>
+          <a href="#!">Facebook</a>
+        </p>
+
+        <p>
+          <a href="#!">Instagram</a>
+        </p>
+
+      </div>
+
+      <div id="Derechos">
+      <h3>Derechos</h3>
+      <p>Todos los Derechos resercados</p>
+
+      </div>
+
     </div>
-  </nav>
-</footer>-->
+</footer>
 
-<footer class="">
+<!--<footer class="">
 
-    <!-- Footer Links -->
+
     <div class="container-fluid text-center text-md-left">
 
-      <!-- Grid row -->
+
       <div class="row">
 
-        <!-- Grid column -->
+
         <div class="col-md-3 mt-md-0 mt-">
 
-          <!-- Content -->
+
           <h5 class="text-uppercase "><b>Contactos</b></h5>
           <p>Correo Electronico</p>
           <p>Direccion</p>
           <p>Telefono</p>
 
         </div>
-        <!-- Grid column -->
 
-
-
-        <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
 
-            <!-- Links -->
             <h5 class="text-uppercase">Terminos</h5>
 
             <ul class="list-unstyled">
@@ -186,6 +208,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
       <a href=""> Derechos resercados</a>
     </div>
-  </footer>
+  </footer>-->
 </body>
 </html>
