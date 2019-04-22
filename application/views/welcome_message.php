@@ -16,9 +16,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
     </head>
 <body id="body">
+<div id="contenido">
 
 
-  
+
 
 
 <header id="cabecera">
@@ -38,28 +39,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 -->
 
-<nav class="navbar navbar-inverse">
+<!--<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a id="color" class="navbar-brand" href="#">Comenzando con la fotografía</a>
     </div>
 
     <ul class="nav navbar-nav navbar-right">
-      <li>  <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a></li>
-      <li>  <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a></li>
-      <li> <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a></li>
+       <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a>
+       <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
+      <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a>
     </ul>
   </div>
-</nav>
+</nav>-->
+
+<h1>Comenzando con la Fotografía</h1>
+        <nav>
+          <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a>
+          <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
+         <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a>
+        </nav>
+
 </header>
 
 
   <div  class=""id="principal">
     <figure id="">
-      <p id="pie">
+
         <img id="image1" src="assets/images/info.jpg" alt="triangle with all three sides equal"  >
 
-      </p>
+
     </figure>
  </div>
 
@@ -78,23 +87,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
       </figure>
   </div>-->
+<div id="secundario">
+    <div class="container" >
+        <article class="" id="izquierda">
+          <a class="" href="">
+            <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
+          </a>
+          <h4><b>Retratos</b></h4>
+        </article>
 
-<div class="container" id="secundario">
-<article id="izquierda">
-  <a class="" href="">
-    <img id="image2" src="assets/images/responsive.jpg" alt="triangle with all three sides equal" >
-  </a>
-  <h3>Retratos</h3>
-</article>
+        <article class="" id="derecha">
+          <a class="" href="">
+            <img id="image3" src="assets/images/web.jpg" alt="triangle with all three sides equal" >
+          </a>
+          <h4><b>Paisajes</b></h4>
 
-<article id="derecha">
-  <a class="" href="">
-    <img id="image3" src="assets/images/web.jpg" alt="triangle with all three sides equal" >
-  </a>
-  <h3>Paisajes</h3>
-</article>
+        </article>
+      </div>
 </div>
-
 <footer>
 
     <div class="container">
@@ -209,5 +219,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <a href=""> Derechos resercados</a>
     </div>
   </footer>-->
+</div>
 </body>
+
 </html>

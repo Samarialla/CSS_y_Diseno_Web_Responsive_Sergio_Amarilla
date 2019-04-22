@@ -15,33 +15,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
     </head>
-    <body id="body">
+<body id="body">
+  <div id="contenido">
 <header id="cabecera">
-  <nav class="navbar navbar-inverse">
+<!--  <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <a id="color" class="navbar-brand" href="#"></a>
     </div>
 
       <ul class="nav navbar-nav navbar-right">
-        <li>  <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a></li>
-        <li>  <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Retratos</a></li>
-        <li> <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a></li>
-
+        <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a>
+        <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Retratos</a>
+        <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
       </ul>
     </div>
-  </nav>
-</header>
+  </nav>-->
 
+  <h1>Comenzando con la Fotografía</h1>
+          <nav>
+            <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a>
+            <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
+           <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a>
+          </nav>
 
-                                <figure class="" id="">
+  </header>
+
+                    <div id="secundario">
+
+                                <figure class="" id="secundario">
                                       <center>
-                                      <img id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal"  >
-                                      <img id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
-                                      <img id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img class="move1" id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal"  >
+                                      <img class="move2" id="images1" src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img class="move4" id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img class="move2" id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img class="move3" id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
+                                      <img class="move8" id="images1"src="assets/images/www.jpg" alt="triangle with all three sides equal" >
                                     </center>
                                 </figure>
 
@@ -85,4 +94,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                 </footer>
                         </body>
+                      </div>
+</div>
 </html>

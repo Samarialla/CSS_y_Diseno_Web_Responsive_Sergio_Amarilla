@@ -16,8 +16,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" href="assets/js/bootstrap.min.js">
     </head>
     <body id="body">
+<div id="contenido">
 <header id="cabecera">
-  <nav class="navbar navbar-inverse">
+<!--  <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <a id="color" class="navbar-brand" href="#"></a>
@@ -29,9 +30,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li> <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a></li>
       </ul>
     </div>
-  </nav>
-</header>
+  </nav>-->
 
+  <h1>Comenzando con la Fotografía</h1>
+          <nav>
+            <a id="color" href="<?php echo base_url() ?>Welcome" title="Enlace genérico">Inicio</a>
+            <a id="color" href="<?php echo base_url() ?>Paisajes" title="Enlace genérico">Paisajes</a>
+           <a id="color" href="<?php echo base_url() ?>Retratos" title="Enlace genérico">Retratos</a>
+          </nav>
+
+  </header>
+
+<div id="secundario">
 
                                 <figure class="" id="">
                                       <center>
@@ -84,6 +94,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                       </div>
 
                                     </div>
+                                  </div>
                                 </footer>
+                              </div>
     </body>
 </html>
